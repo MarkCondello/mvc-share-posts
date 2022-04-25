@@ -9,3 +9,6 @@
 
 
 ## For docker env, I needed to have the RewriteBase pointing to the root (/)
+## mode_rewrite is a PHP module which comes with server envs.
+## RewriteBase is the directory location which we are creating rewrites from
+## If there is a filename in the public dir then it will be loaded, otherwise everything is loaded through index.php
