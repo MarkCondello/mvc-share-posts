@@ -63,9 +63,3 @@ then to clean up images
 then to clean up volumes (Getting rid of the volumes will lose data. eg local databases. Elastic Search indexes If you need that backup first.)
 
 `docker volume prune`
-
-Then run lara again and all will be rebuilt.
-
-In order to rebuild a container run
-
-`docker-compose build --no-cache laravel-horizon`
