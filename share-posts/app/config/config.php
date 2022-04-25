@@ -4,12 +4,12 @@
 define('DB_HOST', 'db');
 define('DB_USER', 'MYSQL_USER');
 define('DB_PASS', 'MYSQL_PASSWORD');
-define('DB_NAME', 'mvc_test');
+define('DB_NAME', 'share_posts');
  
 // App Root
 define('APPROOT', dirname(dirname(__FILE__)));
 //URL Root
-define('URLROOT', 'http://mvc-test.test:8000');
+define('URLROOT', 'http://share-posts.test:8000');
 //Site Name
 define('SITENAME', 'Share Posts');
 //app version

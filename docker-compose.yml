@@ -8,8 +8,8 @@ services:
     depends_on:
       - db
     extra_hosts:
-      - "mvc-test.test:127.0.0.1"
-    hostname: mvc-test.test
+      - "share-posts.test:127.0.0.1"
+    hostname: share-posts.test
     domainname: test
     ports:
       - 8000:80
@@ -22,7 +22,7 @@ services:
       - db-data:/var/lib/mysql
     environment:
       MYSQL_ROOT_PASSWORD: MYSQL_ROOT_PASSWORD
-      MYSQL_DATABASE: mvc_test
+      MYSQL_DATABASE: share_posts
       MYSQL_USER: MYSQL_USER
       MYSQL_PASSWORD: MYSQL_PASSWORD
     ports:

@@ -3,7 +3,7 @@ This framework was developerd from completing the [Object Oriented PHP & MVC cou
 All credits go to [Brad Traversy.](https://www.youtube.com/user/TechGuyWeb)
 
 ## Setup
-Domain mapping for this project is set to `mvc-test.test`.
+Domain mapping for this project is set to `share-posts`.
 Run `docker-compose build` in the root dir. Once the container is built, run `docker-compose up`.
 
 ## Docker commands
