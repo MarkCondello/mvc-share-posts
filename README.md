@@ -8,13 +8,13 @@ Run `docker-compose build` in the root dir. Once the container is built, run `do
 
 ## Docker commands
 
-`docker run` -> creates a container from an image (if not present locally it pulls from remote)
-`docker stop <container_id>` -> stops the container
-`docker start <container_id>` -> starts the container of an existing container
-`docker ps` -> Check all containers running
-`docker ps -a`` -> Check all containers running and not running
-`docker rm <container_id>` -> removes the container
-`docker rmi <image_id>` -> removes the image
+- `docker run` -> creates a container from an image (if not present locally it pulls from remote)
+- `docker stop <container_id>` -> stops the container
+- `docker start <container_id>` -> starts the container of an existing container
+- `docker ps` -> Check all containers running
+- `docker ps -a`` -> Check all containers running and not running
+- `docker rm <container_id>` -> removes the container
+- `docker rmi <image_id>` -> removes the image
 
 ## Debugging
 
