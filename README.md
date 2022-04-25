@@ -18,16 +18,16 @@ Run `docker-compose build` in the root dir. Once the container is built, run `do
 
 ## Debugging
 
-`docker logs <container_id>` -> logs of the container
-`docker exec -it <container_id> /bin/bash` -> enter bash in the container
-<!-- You can replace container_id with custom names... -->
+- `docker logs <container_id>` -> logs of the container
+- `docker exec -it <container_id> /bin/bash` -> enter bash in the container
+*You can replace container_id with custom names...*
 
 ## Parameters
 
-`-d` -> detach mode which means you can run the container in the background
-`-p <localport>:<containerport>` -> port mapping to allow access to the container
-`-f` -> force remove the container if it exists
-`--name <name>` -> name of the container
+- `-d` -> detach mode which means you can run the container in the background
+- `-p <localport>:<containerport>` -> port mapping to allow access to the container
+- `-f` -> force remove the container if it exists
+- `--name <name>` -> name of the container
 
 ## Versions
 
@@ -41,11 +41,11 @@ It creates a docker network and then creates the containers. this way you can ha
 
 ## Docker compose commands
 
-`docker-compose -f <filename> up` -> starts the containers
-`docker-compose down` -> stops the containers
-`docker-compose build` -> builds the containers
-`docker-compose run <container_name>` -> runs the container
-`docker-compose logs <container_name>` -> logs of the container
+- `docker-compose -f <filename> up` -> starts the containers
+- `docker-compose down` -> stops the containers
+- `docker-compose build` -> builds the containers
+- `docker-compose run <container_name>` -> runs the container
+- `docker-compose logs <container_name>` -> logs of the container
 
 ## Mostly used for cleanup or regenerating all containers
 
