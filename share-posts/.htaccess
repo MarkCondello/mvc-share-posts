@@ -1,0 +1,8 @@
+Redirect 301 "/foobarr" "http://mvc-test.test:8000/"
+Redirect 301 "/foobarrbazz" "http://mvc-test.test:8000/test.php"
+
+<IfModule mod_rewrite.c>
+RewriteEngine on
+RewriteRule ^$ public/ [L]
+RewriteRule (.*) public/$1 [L]
+</IfModule>
